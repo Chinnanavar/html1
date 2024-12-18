@@ -1,0 +1,13 @@
+body {
+    background-color: greenyellow;
+}
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: slateblue;
+    
+}
+
+#box2 , #box3 , #box4 ,  #box6{
+    color: orange;
+}

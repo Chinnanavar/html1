@@ -1,0 +1,16 @@
+#back {
+    width: 100px;
+    height: 100px;
+    background-color: orange !important;
+    color: tomato;
+}
+
+#img {
+    background-image: url("https://v-extechsolution.in/static/media/logo.b48612c02e688a28a62f.png");
+    width: 300px;
+    height: 300px;
+    background-size: contain !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid teal;
+}

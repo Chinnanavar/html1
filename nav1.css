@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+}
+#header{
+    /* height: 80px; */
+    display: flex;
+    background-color: #B744B8;
+    color: #9AD5CA;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
+}
+
+#left{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+    
+}
+
+#right{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #9AD5CA;
+}
+
+img{
+    width: 100px;
+    background-color: aliceblue;
+}
+
+i {
+    
+    color: #9AD5CA;
+}

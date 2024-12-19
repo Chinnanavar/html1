@@ -1,0 +1,36 @@
+#one{
+    width: 500px;
+    height: 200px;
+    background-color: lightblue;
+    border: 10px solid green;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
+#two{
+    width: 500px;
+    height: 200px;
+    background-color: purple;
+    border: 10px dashed orange;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}
+#three{
+    width: 500px;
+    height: 200px;
+    background-color: yellowgreen;
+    border: 10px double saddlebrown;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow;
+}

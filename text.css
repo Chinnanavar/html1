@@ -1,0 +1,25 @@
+#one{
+    text-decoration: underline;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 10px 14px 3px #FF0000, 0 0 5px #0000FF;
+    font-style: italic;
+}
+#two{
+    text-decoration: overline;
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: 10px 14px 3px rebeccapurple, 0 0 5px yellow ;
+    font-weight: bold;
+    
+}
+#three{
+    text-decoration: line-through;
+    text-align: right;
+    text-transform: lowercase;
+}
+#four{
+    text-decoration: none;
+    text-align: justify;
+    
+}

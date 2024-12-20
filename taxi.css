@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    background: url(taxi.jpg) center  center/cover no-repeat;
+    overflow: hidden;
+}
+
+.container {
+    padding: 10px 20px;
+    height: 80px;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+#left {
+    display: flex;
+    width: 100px;
+    height: 80px;
+    background: url(taxi.jpg) center  center/cover no-repeat;
+    border: 2px solid black;
+    border-radius: 50%;
+
+    
+}
+
+#right ul{
+    list-style-type: none;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+
+}
+button{
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    
+}

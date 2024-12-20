@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+.container{
+    height: 80px;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    gap: 10px;
+
+
+}
+
+#lt{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.left ul{
+    display: flex;
+    gap: 70px;
+    list-style: none;
+    align-items: center;
+}
+
+button{
+    background-color: chartreuse;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    
+}
+
+#bd {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background: url(cafe.jpg) no-repeat ;
+    background-size: 100%;
+}

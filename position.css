@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+}
+#tol{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+#tor{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+#bol{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+#bor{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+#til{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+}
+
+#till{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+
+}
+#tir{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 50%;
+    right: 0%;
+
+}
+
+#tirr{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+
+}
+#bil{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    bottom: 0%;
+    left: 50%;
+
+}
+
+#bill{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+
+}
+#bir{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+
+}
+
+#birr{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+
+}

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lawngreen;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    
+}
+.out{
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+
+}
+
+.in{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    padding: 10px;
+    display: none;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.in li:hover{
+    background-color: darkgray;
+}
+.in li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.out:hover .in{
+    display: block;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.3s ease;
+
+    
+}
+
+.iout{
+    margin-right: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+
+}
+
+.iin{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    background-color: white;
+    padding: 10px;
+    display: none;
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.iout:hover .iin{
+    display: block;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.3s ease;
+
+    
+}

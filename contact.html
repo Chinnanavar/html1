@@ -3,22 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Simple-Website</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <form>
-      <fieldset>
-        <legend><h1>Contact Form</h1></legend>
-        <label for="name">UserName:</label>
-        <input type="text" id="name" name="name" required /><br /><br />
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required /><br /><br />
-        <label for="phone">Phone Number:</label>
-        <input type="tel" id="phone" name="phone" required /><br /><br />
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea><br /><br />
-        <input type="submit" value="Submit" />
-      </fieldset>
-    </form>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">
+        <h1>Contact Us</h1>
+        <br />
+        <br />
+        <p>Feel free to explore our various pages.</p>
+        <br />
+
+        <div style="text-align: center;">
+            <form id="contact-form">
+                <fieldset>
+                <legend><h2>Contact Form</h2></legend>
+                <br> <br>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br> <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br> <br>
+                <input type="submit" value="Submit">
+            </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        
+        <ul>
+        <li><i class="fa-brands fa-linkedin"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+        <i class="fa-brands fa-facebook"></i>
+      </ul>
+      <p style="text-align: end;">Copyright &copy; 2022 Simple-Website. All rights reserved.</p>
+      </footer>
   </body>
 </html>

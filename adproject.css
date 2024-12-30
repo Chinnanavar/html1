@@ -1,0 +1,147 @@
+*{
+    margin: 10px;
+}
+.color{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, #1124cb, #30fc25);
+}
+
+.color:hover{
+    background: linear-gradient(to right, #e62a09, #e8d50a);
+}
+
+.over{
+    width: 100px;
+    height: 100px;
+    background-color: #30fc25;
+    
+    p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+.transform{
+    width: 100px;
+    height: 100px;
+    background-color: #e8d50a;
+    transition: all 0.5s;
+
+    &:hover{
+        transform: scale(1.5) translateX(50px)
+        rotate(45deg);
+    }
+}
+
+.ball{
+    width: 100px;
+    height: 100px;
+    background-color: #1124cb;
+    border-radius: 50%;
+    position: relative;
+    animation: bounce 2s infinite;
+}
+@keyframes bounce{
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-100px); }
+    100% { transform: translateY(0); }
+}
+
+.con{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 600px) {
+    .con{
+        flex-direction: column;
+    }
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.card:hover .card-body {
+    transform: rotateY(180deg);
+}
+
+.front, .back {
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.front {
+    background-color:orange;
+}
+
+.back {
+    background-color: yellowgreen;
+    padding: 10px;
+    text-align: justify;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+
+    background-color: #f5f5f5;
+    .grid-item{
+        padding: 20px;
+        text-align: center;
+        font-size: 18px;
+
+        &:nth-child(1){
+            background-color: blue;
+        }
+        &:nth-child(2){
+            background-color: red;
+        }
+        &:nth-child(3){
+            background-color: yellow;
+        }
+        &:nth-child(4){
+            background-color: green;
+        }
+        &:nth-child(5){
+            background-color: orange;
+        }
+        &:nth-child(6){
+            background-color: purple;
+        }
+    }
+  
+
+    @media (max-width: 500px) {
+        grid-template-columns: auto;
+    }
+}
+
+
